@@ -10,7 +10,7 @@ module ImageTemplates
     end
 
     def allowed_options
-      %w(content name min_height)
+      %w(content name min_height max_height)
     end
 
     def erb_template
