@@ -40,7 +40,8 @@ h2 {
 
 .question--header--logo {
   width: 147px;
-  float: right;
+  /*float: right;*/
+  margin-bottom: 10px;
 }
 
 .question--footer {
@@ -65,7 +66,7 @@ h2 {
   position: relative;
 }
 
-.question--content::before {
+/*.question--content::before {
   content: '';
   display: block;
   width: 160px;
@@ -74,7 +75,7 @@ h2 {
   position: absolute;
   top: -32px;
   left: 10px;
-}
+}*/
 
 .question--footer--user-name {
   font-size: 24px;
